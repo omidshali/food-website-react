@@ -24,7 +24,7 @@ const Food = () => {
         {/* Filter type */}
         <div>
           <p className="text-gray-700 font-bold"> Filter Type</p>
-          <div className="flex gap-1">
+          <div className="flex flex-wrap gap-1">
             <button
               onClick={() => setFoods(data)}
               className="text-orange-600 border-orange-600 hover:bg-orange-600 hover:text-white"
